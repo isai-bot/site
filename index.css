@@ -5,10 +5,50 @@ header {
 }
 
 h1 {
-  font-size: 3em;
+  inline-size: min-content;
+  font-size: 10vw;
+  color: rgb(171, 234, 255);
   opacity: 100%;
 }
 
+#title {
+  font-family: "Unbounded", cursive;
+  font-size: 200%;
+  transition: font-size 0.5s ease-in-out;
+}
+
 #q {
+  inline-size: min-content;
+  width: auto;
+  word-wrap: normal;
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
   padding-right: 20%;
+  transition: font-size 0.5s ease-in-out;
+}
+
+#adj {
+  transition: color 1.5s ease-in-out;
+  font-weight: 600;
+}
+
+#main-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 1.5s ease-in-out;
+}
+
+#main-content > p {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#rise {
+  transition: color 1s ease-in;
 }

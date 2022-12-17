@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Quicksand:wght@300;600&family=Unbounded:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
@@ -15,18 +22,34 @@
 
     <title>Image creation integrity simplified! - Isai Discord Bot</title>
   </head>
+
   <body>
     <header class="container-fluid">
-      <h1 class="container">
-        <span style="font-size: 300%; color: aqua">Isai</span>Bot <br />
-        <div id="q">
-          <span>
-            Image Creation Integrity <br />
-            Made <span id="adj">Simple</span>.
+      <div class="container">
+        <h1>
+          <span id="title">Isai</span>
+          <p id="q">
+            Image Creation Integrity Made <span id="adj"></span>.
             <script src="/index.js"></script>
-          </span>
-        </div>
-      </h1>
+          </p>
+        </h1>
+      </div>
     </header>
+
+    <main class="container-fluid" id="main-content">
+      <div class="container" id="content-wrapper">
+        <div
+          style="
+            padding: 1em;
+            background-color: rgba(0, 0, 0, 0.155);
+            border-radius: 10px;
+          "
+        >
+          <h2>
+            AI-generated images has been on <span id="rise">the rise.</span>
+          </h2>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
