@@ -16,6 +16,7 @@ var adjArray = ["Efficient", "Fast", "Secure", "Simple"],
       Object.assign(document.getElementById("title").style, {
         "font-size": "250%",
       });
+      scrollHere("q");
       setTimeout(() => {
         Object.assign(document.getElementById("main-content").style, {
           "max-height": "200vh",
