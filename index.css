@@ -36,17 +36,30 @@ h1 {
   max-height: 0;
   overflow: hidden;
   padding: 0;
-  transition: max-height 1.5s ease-in-out;
+  transition: max-height 1.5s ease-in-out, padding 1.5s ease-in-out;
+  font-family: "Quicksand", sans-serif;
 }
 
 #main-content > p {
   margin-bottom: 0;
 }
 
+#main-head {
+  margin-bottom: 1vh;
+  transition: font-size 0.5s ease-in-out;
+}
+
+#look-like {
+  height: fit-content;
+  font-size: clamp(15px, 3.5vw, 25px);
+}
+
 h2 {
   font-family: "Chakra Petch", sans-serif;
   text-align: right;
   margin-bottom: 0;
+  font-size: clamp(20px, 5vw, 30px);
+  transition: font-size 0.5s ease-in-out;
 }
 
 #rise {
