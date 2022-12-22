@@ -14,6 +14,8 @@
     />
     <link rel="stylesheet" href="/index.css" />
     <script src="https://unpkg.com/typed.js@2.0.12/lib/typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="/index.js"></script>
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,10 +30,7 @@
       <div class="container">
         <h1>
           <span id="title">Isai</span>
-          <p id="q">
-            Image Creation Integrity Made <span id="adj"></span>.
-            <script src="/index.js"></script>
-          </p>
+          <p id="q">Image Creation Integrity Made <span id="adj"></span>.</p>
         </h1>
       </div>
     </header>
@@ -46,12 +45,38 @@
             border-radius: 10px;
           "
         >
-          <h2>
+          <h2 id="head-quote">
             AI-generated images has been on <span id="rise">the rise</span>.
           </h2>
         </div>
         <div>
           <p id="look-like"></p>
+          <div id="sample-container">
+            <!-- TODO: Swap these out for better formats. -->
+            <div class="samples">
+              <div id="fsample">
+                <img
+                  src="/sam2.png"
+                  alt="An artwork by NovelAI"
+                  srcset=""
+                  class="samples"
+                />
+                <p>NovelAI</p>
+              </div>
+            </div>
+            <div class="samples">
+              <div id="ssample">
+                <img
+                  src="/sam1.png"
+                  alt="A 'Samsung Sam' fanart by spuun"
+                  srcset=""
+                  class="samples"
+                />
+                <p>Spuun</p>
+              </div>
+            </div>
+            <div id="sample-foot"></div>
+          </div>
         </div>
       </div>
     </main>

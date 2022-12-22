@@ -66,3 +66,31 @@ h2 {
 #rise {
   transition: color 1s ease-in;
 }
+
+#sample-container {
+  display: flex;
+}
+
+.samples {
+  margin-right: 1vw;
+  border-radius: 2vw;
+}
+
+.samples p {
+  font-size: 4vw;
+}
+
+#fsample {
+  position: relative;
+  width: 0vw;
+  z-index: 2;
+  opacity: 0;
+}
+
+#ssample {
+  position: relative;
+  left: -100%;
+  z-index: 1;
+  opacity: 0;
+  width: 35vw;
+}
